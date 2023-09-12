@@ -9,7 +9,7 @@ import cors from 'cors';
 
 const port = process.env.PORT || 5000;
 const app = express();
-
+ 
 const corsOptions = {
   origin: 'https://nero-mern-app.onrender.com',
 };
