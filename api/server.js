@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 const app = express();
  
 const corsOptions = {
-  credentials: 'include',
+  credentials: true,
   origin: 'https://nero-mern-app.onrender.com',
 };
 
